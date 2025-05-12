@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<html oncontextmenu="return false">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,25 +19,40 @@
    <link rel="stylesheet" href="css/magnific-popup.css">
    <link rel="stylesheet" href="css/custom.css">
    <title>BisKIRAN | Team</title>
+   <style>
+       /* Style for the logo image */
+       .logo img {
+           width: 120px;
+           height: auto;
+       }
+       .team .card {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-bottom: 2rem;
+       }
+       .team .image img {
+           width: 100%;
+           height: auto;
+           max-width: 200px;
+       }
+       .team .info {
+           text-align: center;
+       }
+       .icons a {
+           margin: 0 5px;
+       }
+   </style>
 </head>
 <body>
-   <!-- ======================================== NAVIGRATION ======================================== -->
+   <!-- ======================================== NAVIGATION ======================================== -->
    <nav id="navigration" class="navbar fixed-top p-0">
       <div class="container">
-         <head>
-            <style>
-                /* Style for the logo image */
-                .logo img {
-                    width: 120px; /* Set the width of the image */
-                    height: auto;/* Maintain the aspect ratio */
-                }
-            </style>
-         </head>
-         <a class="logo" href="index.html"><img src="./img/icon/logo.png" alt=""></a>
+         <a class="logo" href="index.html"><img src="./img/icon/logo.png" alt="Logo"></a>
          <div class="sidenav">
             <div class="header">
                <a class="logo d-lg-none" href="index.html">BisKIRAN</a>
-               <a href="#" class="d-lg-none" id="showsidenav"><img src="img/icon/letter-x.png" alt=""> </a>
+               <a href="#" class="d-lg-none" id="showsidenav"><img src="img/icon/letter-x.png" alt="Close"></a>
             </div>
             <ul class="mb-0">
                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -82,12 +96,10 @@
             <i class="fal fa-chevron-right"></i><span>Contact Us</span>
         </a>
         <div id="hamburger" class="d-lg-none">
-            <img src="img/icon/menu.png" class="img01" alt="">
+            <img src="img/icon/menu.png" class="img01" alt="Menu">
         </div>
       </div>
    </nav>
-
-
 
    <!-- ======================================== PAGE HEADER ======================================== -->
    <section id="pageHeader">
@@ -107,25 +119,22 @@
       </div>
    </section>
 
-
-
    <!-- ======================================== Team ======================================== -->
    <section class="team" style="margin-top: 7rem;">
     <h1 class="heading" style="margin-top: -6.8rem;" id="team">Our Team</h1>
-    <p></p>
     <div class="row">
         <div class="card">
             <div class="image">
-                <img src=./img/RJ.png alt="Team member 1">
+                <img src="./img/Rohit Jha.jpg" alt="Rohit Jha">
             </div>
             <div class="info">
                 <h3>Rohit Jha</h3>
                 <span>CEO/Software Engineer</span>
                 <div class="icons">
-                  <a href="https://www.facebook.com/getintorj/" class="fab fa-facebook-f"></a>
+                  <a href="https://www.facebook.com/jrohitofficial/" class="fab fa-facebook-f"></a>
                   <a href="https://twitter.com/login" class="fab fa-github"></a>
-                  <a href="https://www.instagram.com/getintorj_/" class="fab fa-instagram"></a>
-                  <a href="https://www.linkedin.com/in/getintorj/" class="fab fa-linkedin"></a>
+                  <a href="https://www.instagram.com/jrohitofficial_/" class="fab fa-instagram"></a>
+                  <a href="https://www.linkedin.com/in/jrohitofficial/" class="fab fa-linkedin"></a>
                 </div>
             </div>
         </div>
@@ -133,7 +142,7 @@
     <div class="row">
         <div class="card">
             <div class="image">
-                <img src="./img/RRJ.png" alt="Team member 1">
+                <img src="./img/Roshani Jha.jpg" alt="Roshani Jha">
             </div>
             <div class="info">
                 <h3>Roshani Jha</h3>
@@ -150,7 +159,7 @@
     <div class="row">
         <div class="card">
             <div class="image">
-                <img src="./img/AJ.png" alt="Team member 1">
+                <img src="./img/Aashis Jha.jpg" alt="Aashis Jha">
             </div>
             <div class="info">
                 <h3>Aashis Jha</h3>
@@ -163,16 +172,15 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="row">
+    </div>
+    <div class="row">
         <div class="card">
             <div class="image">
-                <img src="./img/AJ.png" alt="Team member 1">
+                <img src="./img/Sanjiv Sharestha.jpg" alt="Sanjiv Shrestha">
             </div>
             <div class="info">
                 <h3>Sanjiv Shrestha</h3>
-                <span>Chief Technology Officerr</span>
+                <span>Chief Technology Officer</span>
                 <div class="icons">
                   <a href="https://www.facebook.com/me.4774" class="fab fa-facebook-f"></a>
                   <a href="https://twitter.com/login" class="fab fa-github"></a>
@@ -182,10 +190,10 @@
             </div>
         </div>
     </div>
-       <div class="row">
+    <div class="row">
         <div class="card">
             <div class="image">
-                <img src="./img/AJ.png" alt="Team member 1">
+                <img src="./img/Aayusha Regmi.jpg" alt="Aayusha Regmi">
             </div>
             <div class="info">
                 <h3>Aayusha Regmi</h3>
@@ -199,11 +207,10 @@
             </div>
         </div>
     </div>
-        </div>
-       <div class="row">
+    <div class="row">
         <div class="card">
             <div class="image">
-                <img src="./img/AJ.png" alt="Team member 1">
+                <img src="./img/Sharddha Regmi.jpg" alt="Shraddha Regmi">
             </div>
             <div class="info">
                 <h3>Shraddha Regmi</h3>
@@ -216,28 +223,42 @@
                 </div>
             </div>
         </div>
-       
-       
     </div>
-    <!-- <div class="row">
+    <div class="row">
         <div class="card">
-            <div class="image">
-                <img src="./img/AJ.png" alt="Team member 1">
-            </div>
-            <div class="info">
-                <h3>Aashis Jha</h3>
-                <span>Managing Director/Developer</span>
-                <div class="icons">
-                    <a href="https://www.facebook.com/aashiszha4u" class="fab fa-facebook-f"></a>
-                    <a href="https://twitter.com/login" class="fab fa-github"></a>
-                    <a href="https://www.instagram.com/aashiszha/" class="fab fa-instagram"></a>
-                    <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
-                </div>
-            </div>
-        </div>
-    </div> -->
+         <div class="image">
+             <img src="./img/Rabin Chaudhary.jpg" alt="Rabin Chaudhary">
+         </div>
+         <div class="info">
+             <h3>Rabin Chaudhary</h3>
+             <span>Database/Server Engineer</span>
+             <div class="icons">
+               <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+               <a href="https://twitter.com/login" class="fab fa-github"></a>
+               <a href="https://www.instagram.com//" class="fab fa-instagram"></a>
+               <a href="https://www.linkedin.com/in/" class="fab fa-linkedin"></a>
+             </div>
+         </div>
+     </div>
+    </div>
+    <div class="row">
+      <div class="card">
+       <div class="image">
+           <img src="./img/Dr. Saroj Jha.jpg" alt="Dr. Saroj Jha">
+       </div>
+       <div class="info">
+           <h3>Dr. Saroj Jha</h3>
+           <span>Chief Advisor</span>
+           <div class="icons">
+             <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+             <a href="https://twitter.com/login" class="fab fa-github"></a>
+             <a href="https://www.instagram.com//" class="fab fa-instagram"></a>
+             <a href="https://www.linkedin.com/in/" class="fab fa-linkedin"></a>
+           </div>
+       </div>
+   </div>
+    </div>
   </section>
-  
 
   <!-- ======================================== CONTACT AREA 2 ======================================== -->
   <section id="contactArea">
@@ -338,12 +359,10 @@
       </div>
    </section>
 
-
    <!-- ======================================== SCROLL TO TOP ICON ======================================== -->
    <a href="#" class="scroll-up">
       <i class="fal fa-chevron-up"></i>
    </a>
-
 
    <script src="js/jquery.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
@@ -361,8 +380,5 @@
    <!-- OWL CAROUSEL Plugin -->
    <script src="js/owl.carousel.min.js"></script>
    <script src="js/custom.js"></script>
-   <script>
-
-   </script>
 </body>
 </html>
